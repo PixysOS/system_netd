@@ -95,4 +95,8 @@ cc_defaults {
         + "misc-*,"
         + "performance-*"
     ],
+    lto: {
+        thin: true,
+	},
+    whole_program_vtables: true, // Requires ThinLTO
 }
