@@ -147,7 +147,7 @@ int main() {
 
     if (libnetd_updatable_init(cg2_path.c_str())) {
         ALOGE("libnetd_updatable_init failed");
-        exit(1);
+        //exit(1);
     }
     gLog.info("libnetd_updatable_init success");
 
